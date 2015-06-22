@@ -1,0 +1,23 @@
+{
+  "name": "s.qfs",
+  "version": "1.0.0",
+  "description": "S.qfs - fs with kriskowal/q",
+  "main": "s.qfs.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macton/S.qfs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macton/S.qfs/issues"
+  },
+  "homepage": "https://github.com/macton/S.qfs#readme",
+  "dependencies": {
+    "q": "kriskowal/q#v1",
+    "s": "macton/S"
+  }
+}
