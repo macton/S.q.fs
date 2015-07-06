@@ -18,6 +18,7 @@
   "homepage": "https://github.com/macton/S.qfs#readme",
   "dependencies": {
     "q": "kriskowal/q#v1",
-    "s": "macton/S"
+    "s": "macton/S",
+    "fs-extra": "jprichardson/node-fs-extra"
   }
 }
