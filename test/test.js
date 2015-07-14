@@ -1,8 +1,9 @@
 var Q = require('q');
 var S = require('s');
 
-S.qfs = require('../s.qfs');
+S.q    = require('s.q');
+S.q.fs = require('../s.q.fs');
 
-S.qfs.stat( __dirname + '/test.js' ).then( function( stat ) {
+S.q.fs.stat( __dirname + '/test.js' ).then( function( stat ) {
   console.log( stat );
 });

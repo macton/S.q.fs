@@ -1,24 +1,25 @@
 {
-  "name": "s.qfs",
+  "name": "s.q.fs",
   "version": "1.0.0",
-  "description": "S.qfs - fs with kriskowal/q",
-  "main": "s.qfs.js",
+  "description": "S.q.fs - fs with kriskowal/q",
+  "main": "s.q.fs.js",
   "scripts": {
     "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macton/S.qfs.git"
+    "url": "git+https://github.com/macton/S.q.fs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/macton/S.qfs/issues"
+    "url": "https://github.com/macton/S.q.fs/issues"
   },
-  "homepage": "https://github.com/macton/S.qfs#readme",
+  "homepage": "https://github.com/macton/S.q.fs#readme",
   "dependencies": {
     "q": "kriskowal/q#v1",
     "s": "macton/S",
+    "s.q": "macton/S.q",
     "fs-extra": "jprichardson/node-fs-extra"
   }
 }
